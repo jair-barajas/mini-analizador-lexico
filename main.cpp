@@ -51,7 +51,7 @@ main()
    {
       if((*p != ' ') && (*p !=','))  	//Primero revisa que sea distinto de un espacio ' ' y una coma ','
        {
-            if((*p== ';') || (*p=='+') || (*p=='-') || (*p=='*') || (*p=='/') || (*p=='='))
+            if((*p== ';') || (*p=='(') || (*p==')') || (*p=='+') || (*p=='-') || (*p=='*') || (*p=='/') || (*p=='='))
               {
                   tokenSimbolos[indexSimbolos] = *p;
                   indexSimbolos++;
